@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy — Easy CountDown!</title>
+    <style>
+        :root {
+            --color-bg: #0f172a;
+            --color-surface: #111c34;
+            --color-surface-alt: linear-gradient(135deg, #1e293b, #0f172a);
+            --color-text: #e2e8f0;
+            --color-muted: #94a3b8;
+            --color-accent: #38bdf8;
+            --color-accent-strong: #f472b6;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont,
+                'Segoe UI', Roboto, sans-serif;
+            background: radial-gradient(circle at top,
+                    rgba(56, 189, 248, 0.15),
+                    transparent 60%),
+                var(--color-bg);
+            color: var(--color-text);
+            min-height: 100vh;
+            margin: 0;
+            padding: 3rem 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1,
+        h2 {
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: var(--color-accent);
+        }
+
+        h2 {
+            color: var(--color-accent-strong);
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+        }
+
+        p {
+            font-size: 1.05rem;
+            line-height: 1.6;
+            margin: 0 0 1.5rem;
+            color: var(--color-muted);
+        }
+
+        p strong {
+            color: var(--color-text);
+        }
+
+        p em {
+            color: var(--color-muted);
+            font-style: italic;
+        }
+
+        a {
+            color: var(--color-accent);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        a:hover {
+            color: var(--color-accent-strong);
+        }
+
+        ul {
+            margin: 0 0 1.5rem;
+            padding-left: 1.5rem;
+            color: var(--color-muted);
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: min(800px, 100%);
+            background: var(--color-surface-alt);
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(15, 23, 42, 0.45);
+            text-align: left;
+            border: 1px solid rgba(226, 232, 240, 0.08);
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 0.35rem 0.9rem;
+            border-radius: 999px;
+            font-size: 0.8rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            background: rgba(148, 163, 184, 0.15);
+            color: var(--color-muted);
+            margin-bottom: 1.5rem;
+        }
+
+        .card {
+            background: rgba(15, 23, 42, 0.6);
+            border-radius: 16px;
+            padding: 1.5rem;
+            border: 1px solid rgba(56, 189, 248, 0.15);
+            margin-bottom: 1.5rem;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 2rem 1rem;
+            }
+
+            .container {
+                padding: 2rem 1.5rem;
+            }
+
+            h1 {
+                font-size: 1.6rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="tag">Privacy Policy</div>
+            <h1>Easy CountDown!</h1>
+            <p><em>Last updated: March 2026</em></p>
+        </div>
+
+        <div class="card">
+            <h2>1. Overview</h2>
+            <p>
+                <strong>Easy CountDown!</strong> (“the App”) helps you track deadlines on your device. This policy
+                describes how information is handled when you use the App. The developer does not operate a backend
+                server for the App’s core features described below.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>2. Information We Do Not Collect</h2>
+            <p>The App does not collect, store on our servers, or ask you to provide:</p>
+            <ul>
+                <li>An account, login, or password</li>
+                <li>Your name, email, or phone number (unless you email us voluntarily)</li>
+                <li>Precise location or contacts</li>
+                <li>Advertising identifiers for third-party ad networks</li>
+            </ul>
+            <p>There is no sign-up and no user database operated by the developer for routine use of the App.</p>
+        </div>
+
+        <div class="card">
+            <h2>3. Data Stored Locally on Your Device</h2>
+            <p>
+                Deadline information you enter (such as titles, notes, dates, and importance) is stored <strong>only on
+                    your iPhone</strong> using Apple’s SwiftData storage. It remains under your control and is not sent
+                to the developer’s servers.
+            </p>
+            <p>
+                To support the <strong>Home Screen widget</strong>, a small amount of data (including which deadline you
+                choose to pin) may be stored in shared on-device storage (App Group) so the main app and the widget
+                extension can read it. This stays on your device and is not transmitted to us.
+            </p>
+            <p>Deleting the App removes the App’s local data from your device, subject to how iOS handles removal.</p>
+        </div>
+
+        <div class="card">
+            <h2>4. In-App Purchases</h2>
+            <p>
+                The App does not currently offer in-app purchases. If optional purchases are added in a future version,
+                payment will be processed by Apple; the developer does not receive or store your card details.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>5. Apple Analytics and Crash Reporting</h2>
+            <p>Apple may automatically collect analytics such as installation counts, crash reports, and performance
+                metrics. This information is collected and processed by Apple, not by the developer.</p>
+        </div>
+
+        <div class="card">
+            <h2>6. Children's Privacy</h2>
+            <p>The App is suitable for general audiences and does not knowingly collect personal data from children for
+                marketing purposes.</p>
+        </div>
+
+        <div class="card">
+            <h2>7. Third-Party Services</h2>
+            <p>The App does not integrate third-party analytics SDKs, advertising networks, or external data-collection
+                services in the current version. If that changes in the future, this policy will be updated.</p>
+        </div>
+
+        <div class="card">
+            <h2>8. Future Features (e.g. Cloud Sync)</h2>
+            <p>
+                If cloud sync or similar features are added later, they may rely on Apple services (such as iCloud) and
+                would be described in an updated policy and in App Store privacy details. Until then, your deadlines
+                remain stored locally as described above.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>9. GDPR, CCPA, and Similar Laws</h2>
+            <p>Because the App does not send your deadline content to the developer’s servers for routine operation, there
+                is nothing for us to export or delete on our systems—you may remove data by editing or deleting events
+                in the App, or by deleting the App. If you contact us, we only process the information in your message
+                for support.</p>
+        </div>
+
+        <div class="card">
+            <h2>10. Changes to This Policy</h2>
+            <p>This Privacy Policy may be updated occasionally. Updated versions will show a new “Last updated” date at the
+                top.</p>
+        </div>
+
+        <div class="card">
+            <h2>11. Contact</h2>
+            <p>If you have questions about this Privacy Policy, please contact us:</p>
+            <p>
+                <a href="mailto:contact.pitustudio@gmail.com">contact.pitustudio@gmail.com</a>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

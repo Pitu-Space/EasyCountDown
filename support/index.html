@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Easy CountDown! Support</title>
+    <style>
+        :root {
+            --color-bg: #0f172a;
+            --color-surface: #111c34;
+            --color-surface-alt: linear-gradient(135deg, #1e293b, #0f172a);
+            --color-text: #e2e8f0;
+            --color-muted: #94a3b8;
+            --color-accent: #38bdf8;
+            --color-accent-strong: #f472b6;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont,
+                'Segoe UI', Roboto, sans-serif;
+            background: radial-gradient(circle at top,
+                    rgba(56, 189, 248, 0.15),
+                    transparent 60%),
+                var(--color-bg);
+            color: var(--color-text);
+            min-height: 100vh;
+            margin: 0;
+            padding: 3rem 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1,
+        h2 {
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: var(--color-accent);
+        }
+
+        h2 {
+            color: var(--color-accent-strong);
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+        }
+
+        p {
+            font-size: 1.05rem;
+            line-height: 1.6;
+            margin: 0 0 1.5rem;
+            color: var(--color-muted);
+        }
+
+        p strong {
+            color: var(--color-text);
+        }
+
+        a {
+            color: var(--color-accent);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        a:hover {
+            color: var(--color-accent-strong);
+        }
+
+        .container {
+            width: min(640px, 100%);
+            background: var(--color-surface-alt);
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(15, 23, 42, 0.45);
+            text-align: center;
+            border: 1px solid rgba(226, 232, 240, 0.08);
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 0.35rem 0.9rem;
+            border-radius: 999px;
+            font-size: 0.8rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            background: rgba(148, 163, 184, 0.15);
+            color: var(--color-muted);
+            margin-bottom: 1.5rem;
+        }
+
+        .card {
+            background: rgba(15, 23, 42, 0.6);
+            border-radius: 16px;
+            padding: 1.5rem;
+            border: 1px solid rgba(56, 189, 248, 0.15);
+            margin-bottom: 1.5rem;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 2rem 1rem;
+            }
+
+            .container {
+                padding: 2rem 1.5rem;
+            }
+
+            h1 {
+                font-size: 1.6rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="tag">Support Center</div>
+        <h1>Easy CountDown!</h1>
+        <p>
+            Welcome to the support page for <strong>Easy CountDown!</strong>.
+            Track deadlines with clarity—on your calendar and on your Home Screen.
+        </p>
+
+        <div class="card">
+            <h2>What the app does</h2>
+            <p>
+                Add upcoming deadlines and browse past ones. Countdowns use
+                <strong>years</strong> or <strong>days</strong> when you’re far out,
+                and switch to <strong>hours</strong> inside the last 24 hours.
+                The calendar overview shows how busy your months are, with
+                importance <strong>color-coding</strong> so priorities stand out.
+                Your data stays <strong>on your iPhone</strong> with SwiftData—no
+                account required.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>Home Screen widget</h2>
+            <p>
+                Pin <strong>one</strong> deadline to the widget—upcoming or past—
+                for a clean countdown at a glance. Tap the widget to jump back into
+                the app when you need the full picture.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>Need a hand?</h2>
+            <p>
+                Found a bug, have an idea, or want to say hello? We read every message:
+            </p>
+            <p>
+                <a href="mailto:contact.pitustudio@gmail.com">contact.pitustudio@gmail.com</a>
+            </p>
+        </div>
+
+        <p>
+            Thanks for using Easy CountDown! We hope it keeps your deadlines in view.
+        </p>
+    </div>
+</body>
+
+</html>
